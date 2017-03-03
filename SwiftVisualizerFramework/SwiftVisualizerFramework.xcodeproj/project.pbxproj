@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4530651E1E696E59008CBE16 /* SourceKittenFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4530651D1E696E59008CBE16 /* SourceKittenFramework.framework */; };
+		453065291E699CA8008CBE16 /* SourceKittenFramework.framework.dSYM in Copy Debug Symbols */ = {isa = PBXBuildFile; fileRef = 453065261E699CA8008CBE16 /* SourceKittenFramework.framework.dSYM */; };
+		4530652A1E699CA8008CBE16 /* SWXMLHash.framework.dSYM in Copy Debug Symbols */ = {isa = PBXBuildFile; fileRef = 453065271E699CA8008CBE16 /* SWXMLHash.framework.dSYM */; };
+		4530652B1E699CA8008CBE16 /* Yams.framework.dSYM in Copy Debug Symbols */ = {isa = PBXBuildFile; fileRef = 453065281E699CA8008CBE16 /* Yams.framework.dSYM */; };
+		4530652F1E699CF9008CBE16 /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4530652D1E699CF9008CBE16 /* SWXMLHash.framework */; };
+		453065301E699CF9008CBE16 /* Yams.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4530652E1E699CF9008CBE16 /* Yams.framework */; };
 		OBJ_20 /* SwiftVisualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* SwiftVisualizer.swift */; };
 		OBJ_27 /* SwiftVisualizerFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* SwiftVisualizerFrameworkTests.swift */; };
 		OBJ_29 /* SwiftVisualizerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* SwiftVisualizerFramework.framework */; };
@@ -22,7 +28,29 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4530651F1E699C70008CBE16 /* Copy Debug Symbols */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				453065291E699CA8008CBE16 /* SourceKittenFramework.framework.dSYM in Copy Debug Symbols */,
+				4530652A1E699CA8008CBE16 /* SWXMLHash.framework.dSYM in Copy Debug Symbols */,
+				4530652B1E699CA8008CBE16 /* Yams.framework.dSYM in Copy Debug Symbols */,
+			);
+			name = "Copy Debug Symbols";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		4530651D1E696E59008CBE16 /* SourceKittenFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SourceKittenFramework.framework; path = Carthage/Build/Mac/SourceKittenFramework.framework; sourceTree = "<group>"; };
+		453065261E699CA8008CBE16 /* SourceKittenFramework.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = SourceKittenFramework.framework.dSYM; path = Carthage/Build/Mac/SourceKittenFramework.framework.dSYM; sourceTree = "<group>"; };
+		453065271E699CA8008CBE16 /* SWXMLHash.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = SWXMLHash.framework.dSYM; path = Carthage/Build/Mac/SWXMLHash.framework.dSYM; sourceTree = "<group>"; };
+		453065281E699CA8008CBE16 /* Yams.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Yams.framework.dSYM; path = Carthage/Build/Mac/Yams.framework.dSYM; sourceTree = "<group>"; };
+		4530652D1E699CF9008CBE16 /* SWXMLHash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SWXMLHash.framework; path = Carthage/Build/Mac/SWXMLHash.framework; sourceTree = "<group>"; };
+		4530652E1E699CF9008CBE16 /* Yams.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Yams.framework; path = Carthage/Build/Mac/Yams.framework; sourceTree = "<group>"; };
 		OBJ_11 /* SwiftVisualizerFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftVisualizerFrameworkTests.swift; sourceTree = "<group>"; };
 		OBJ_13 /* SwiftVisualizerFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftVisualizerFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_14 /* SwiftVisualizerFrameworkTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = SwiftVisualizerFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -35,6 +63,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
+				4530651E1E696E59008CBE16 /* SourceKittenFramework.framework in Frameworks */,
+				4530652F1E699CF9008CBE16 /* SWXMLHash.framework in Frameworks */,
+				453065301E699CF9008CBE16 /* Yams.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,6 +80,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4530651C1E696E59008CBE16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4530652D1E699CF9008CBE16 /* SWXMLHash.framework */,
+				4530652E1E699CF9008CBE16 /* Yams.framework */,
+				4530651D1E696E59008CBE16 /* SourceKittenFramework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4530652C1E699CBC008CBE16 /* Debug Symbols */ = {
+			isa = PBXGroup;
+			children = (
+				453065261E699CA8008CBE16 /* SourceKittenFramework.framework.dSYM */,
+				453065271E699CA8008CBE16 /* SWXMLHash.framework.dSYM */,
+				453065281E699CA8008CBE16 /* Yams.framework.dSYM */,
+			);
+			name = "Debug Symbols";
+			sourceTree = "<group>";
+		};
 		OBJ_10 /* SwiftVisualizerFrameworkTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +125,8 @@
 				OBJ_7 /* Sources */,
 				OBJ_9 /* Tests */,
 				OBJ_12 /* Products */,
+				4530651C1E696E59008CBE16 /* Frameworks */,
+				4530652C1E699CBC008CBE16 /* Debug Symbols */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +155,7 @@
 			buildPhases = (
 				OBJ_19 /* Sources */,
 				OBJ_21 /* Frameworks */,
+				4530651F1E699C70008CBE16 /* Copy Debug Symbols */,
 			);
 			buildRules = (
 			);
@@ -190,6 +244,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = SwiftVisualizerFramework.xcodeproj/SwiftVisualizerFramework_Info.plist;
@@ -211,6 +266,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = SwiftVisualizerFramework.xcodeproj/SwiftVisualizerFramework_Info.plist;
