@@ -7,79 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		45420BA31E6AD21C008ADA7F /* SwiftVisualizerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4582535C1E6AC8CE00D40376 /* SwiftVisualizerFramework.framework */; };
-		45420BA41E6AD21C008ADA7F /* SwiftVisualizerFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4582535C1E6AC8CE00D40376 /* SwiftVisualizerFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		45420BA71E6AD21C008ADA7F /* SourceKittenFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4582537B1E6AC9CD00D40376 /* SourceKittenFramework.framework */; };
-		45420BA81E6AD21C008ADA7F /* SourceKittenFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4582537B1E6AC9CD00D40376 /* SourceKittenFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		45420BA91E6AD21C008ADA7F /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4582537C1E6AC9CD00D40376 /* SWXMLHash.framework */; };
-		45420BAA1E6AD21C008ADA7F /* SWXMLHash.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4582537C1E6AC9CD00D40376 /* SWXMLHash.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		45420BAB1E6AD21C008ADA7F /* Yams.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4582537D1E6AC9CD00D40376 /* Yams.framework */; };
-		45420BAC1E6AD21C008ADA7F /* Yams.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4582537D1E6AC9CD00D40376 /* Yams.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		458253221E6AC7AC00D40376 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458253211E6AC7AC00D40376 /* AppDelegate.swift */; };
-		458253241E6AC7AC00D40376 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458253231E6AC7AC00D40376 /* ViewController.swift */; };
-		458253261E6AC7AC00D40376 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458253251E6AC7AC00D40376 /* Document.swift */; };
-		458253281E6AC7AC00D40376 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 458253271E6AC7AC00D40376 /* Assets.xcassets */; };
-		4582532B1E6AC7AC00D40376 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 458253291E6AC7AC00D40376 /* Main.storyboard */; };
-		458253361E6AC7AC00D40376 /* SwiftVisualizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458253351E6AC7AC00D40376 /* SwiftVisualizerTests.swift */; };
-		458253411E6AC7AC00D40376 /* SwiftVisualizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458253401E6AC7AC00D40376 /* SwiftVisualizerUITests.swift */; };
-		458253651E6AC8CF00D40376 /* SwiftVisualizerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4582535C1E6AC8CE00D40376 /* SwiftVisualizerFramework.framework */; };
-		4582536C1E6AC8CF00D40376 /* SwiftVisualizerFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4582536B1E6AC8CF00D40376 /* SwiftVisualizerFrameworkTests.swift */; };
-		4582537E1E6AC9CD00D40376 /* SourceKittenFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4582537B1E6AC9CD00D40376 /* SourceKittenFramework.framework */; };
-		4582537F1E6AC9CD00D40376 /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4582537C1E6AC9CD00D40376 /* SWXMLHash.framework */; };
-		458253801E6AC9CD00D40376 /* Yams.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4582537D1E6AC9CD00D40376 /* Yams.framework */; };
-		459F00C61E6AD66000B5F221 /* Visualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459F00C51E6AD66000B5F221 /* Visualizer.swift */; };
-		459F00C71E6ADBCF00B5F221 /* SwiftVisualizerFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 4582535E1E6AC8CE00D40376 /* SwiftVisualizerFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		459F0BFB1E6DEDF00096E3A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459F0BFA1E6DEDF00096E3A8 /* AppDelegate.swift */; };
+		459F0BFD1E6DEDF00096E3A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459F0BFC1E6DEDF00096E3A8 /* ViewController.swift */; };
+		459F0BFF1E6DEDF00096E3A8 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459F0BFE1E6DEDF00096E3A8 /* Document.swift */; };
+		459F0C011E6DEDF00096E3A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 459F0C001E6DEDF00096E3A8 /* Assets.xcassets */; };
+		459F0C041E6DEDF00096E3A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 459F0C021E6DEDF00096E3A8 /* Main.storyboard */; };
+		459F0C1F1E6DEE600096E3A8 /* SourceKittenFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 459F0C1C1E6DEE600096E3A8 /* SourceKittenFramework.framework */; };
+		459F0C201E6DEE600096E3A8 /* SourceKittenFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 459F0C1C1E6DEE600096E3A8 /* SourceKittenFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		459F0C211E6DEE600096E3A8 /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 459F0C1D1E6DEE600096E3A8 /* SWXMLHash.framework */; };
+		459F0C221E6DEE600096E3A8 /* SWXMLHash.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 459F0C1D1E6DEE600096E3A8 /* SWXMLHash.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		459F0C231E6DEE600096E3A8 /* Yams.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 459F0C1E1E6DEE600096E3A8 /* Yams.framework */; };
+		459F0C241E6DEE600096E3A8 /* Yams.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 459F0C1E1E6DEE600096E3A8 /* Yams.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		459F0C261E6DEE890096E3A8 /* Visualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459F0C251E6DEE890096E3A8 /* Visualizer.swift */; };
+		459F0C2F1E6DEF000096E3A8 /* SwiftVisualizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459F0C2E1E6DEF000096E3A8 /* SwiftVisualizerTests.swift */; };
+		459F0C3E1E6DEF4C0096E3A8 /* SwiftVisualizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459F0C3D1E6DEF4C0096E3A8 /* SwiftVisualizerUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		45420BA51E6AD21C008ADA7F /* PBXContainerItemProxy */ = {
+		459F0C311E6DEF000096E3A8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
+			containerPortal = 459F0BEF1E6DEDF00096E3A8 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4582535B1E6AC8CE00D40376;
-			remoteInfo = SwiftVisualizerFramework;
-		};
-		458253321E6AC7AC00D40376 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4582531E1E6AC7AC00D40376;
+			remoteGlobalIDString = 459F0BF61E6DEDF00096E3A8;
 			remoteInfo = SwiftVisualizer;
 		};
-		4582533D1E6AC7AC00D40376 /* PBXContainerItemProxy */ = {
+		459F0C401E6DEF4C0096E3A8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
+			containerPortal = 459F0BEF1E6DEDF00096E3A8 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4582531E1E6AC7AC00D40376;
-			remoteInfo = SwiftVisualizer;
-		};
-		458253661E6AC8CF00D40376 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4582535B1E6AC8CE00D40376;
-			remoteInfo = SwiftVisualizerFramework;
-		};
-		458253681E6AC8CF00D40376 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4582531E1E6AC7AC00D40376;
+			remoteGlobalIDString = 459F0BF61E6DEDF00096E3A8;
 			remoteInfo = SwiftVisualizer;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		45420BAD1E6AD21C008ADA7F /* Embed Frameworks */ = {
+		459F0C1B1E6DEE570096E3A8 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				45420BAC1E6AD21C008ADA7F /* Yams.framework in Embed Frameworks */,
-				45420BA41E6AD21C008ADA7F /* SwiftVisualizerFramework.framework in Embed Frameworks */,
-				45420BA81E6AD21C008ADA7F /* SourceKittenFramework.framework in Embed Frameworks */,
-				45420BAA1E6AD21C008ADA7F /* SWXMLHash.framework in Embed Frameworks */,
+				459F0C241E6DEE600096E3A8 /* Yams.framework in Embed Frameworks */,
+				459F0C221E6DEE600096E3A8 /* SWXMLHash.framework in Embed Frameworks */,
+				459F0C201E6DEE600096E3A8 /* SourceKittenFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -87,369 +57,217 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4582531F1E6AC7AC00D40376 /* SwiftVisualizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftVisualizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		458253211E6AC7AC00D40376 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		458253231E6AC7AC00D40376 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		458253251E6AC7AC00D40376 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
-		458253271E6AC7AC00D40376 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4582532A1E6AC7AC00D40376 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4582532C1E6AC7AC00D40376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		458253311E6AC7AC00D40376 /* SwiftVisualizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftVisualizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		458253351E6AC7AC00D40376 /* SwiftVisualizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftVisualizerTests.swift; sourceTree = "<group>"; };
-		458253371E6AC7AC00D40376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4582533C1E6AC7AC00D40376 /* SwiftVisualizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftVisualizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		458253401E6AC7AC00D40376 /* SwiftVisualizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftVisualizerUITests.swift; sourceTree = "<group>"; };
-		458253421E6AC7AC00D40376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4582535C1E6AC8CE00D40376 /* SwiftVisualizerFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftVisualizerFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4582535E1E6AC8CE00D40376 /* SwiftVisualizerFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftVisualizerFramework.h; sourceTree = "<group>"; };
-		4582535F1E6AC8CE00D40376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		458253641E6AC8CF00D40376 /* SwiftVisualizerFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftVisualizerFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4582536B1E6AC8CF00D40376 /* SwiftVisualizerFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftVisualizerFrameworkTests.swift; sourceTree = "<group>"; };
-		4582536D1E6AC8CF00D40376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4582537B1E6AC9CD00D40376 /* SourceKittenFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SourceKittenFramework.framework; path = Carthage/Build/Mac/SourceKittenFramework.framework; sourceTree = "<group>"; };
-		4582537C1E6AC9CD00D40376 /* SWXMLHash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SWXMLHash.framework; path = Carthage/Build/Mac/SWXMLHash.framework; sourceTree = "<group>"; };
-		4582537D1E6AC9CD00D40376 /* Yams.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Yams.framework; path = Carthage/Build/Mac/Yams.framework; sourceTree = "<group>"; };
-		459F00C41E6AD63F00B5F221 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		459F00C51E6AD66000B5F221 /* Visualizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Visualizer.swift; sourceTree = "<group>"; };
+		459F0BF71E6DEDF00096E3A8 /* SwiftVisualizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftVisualizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		459F0BFA1E6DEDF00096E3A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		459F0BFC1E6DEDF00096E3A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		459F0BFE1E6DEDF00096E3A8 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		459F0C001E6DEDF00096E3A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		459F0C031E6DEDF00096E3A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		459F0C051E6DEDF00096E3A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		459F0C1C1E6DEE600096E3A8 /* SourceKittenFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SourceKittenFramework.framework; path = Carthage/Build/Mac/SourceKittenFramework.framework; sourceTree = "<group>"; };
+		459F0C1D1E6DEE600096E3A8 /* SWXMLHash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SWXMLHash.framework; path = Carthage/Build/Mac/SWXMLHash.framework; sourceTree = "<group>"; };
+		459F0C1E1E6DEE600096E3A8 /* Yams.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Yams.framework; path = Carthage/Build/Mac/Yams.framework; sourceTree = "<group>"; };
+		459F0C251E6DEE890096E3A8 /* Visualizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Visualizer.swift; sourceTree = "<group>"; };
+		459F0C2C1E6DEF000096E3A8 /* SwiftVisualizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftVisualizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		459F0C2E1E6DEF000096E3A8 /* SwiftVisualizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftVisualizerTests.swift; sourceTree = "<group>"; };
+		459F0C301E6DEF000096E3A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		459F0C3B1E6DEF4C0096E3A8 /* SwiftVisualizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftVisualizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		459F0C3D1E6DEF4C0096E3A8 /* SwiftVisualizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftVisualizerUITests.swift; sourceTree = "<group>"; };
+		459F0C3F1E6DEF4C0096E3A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4582531C1E6AC7AC00D40376 /* Frameworks */ = {
+		459F0BF41E6DEDF00096E3A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45420BAB1E6AD21C008ADA7F /* Yams.framework in Frameworks */,
-				45420BA31E6AD21C008ADA7F /* SwiftVisualizerFramework.framework in Frameworks */,
-				45420BA71E6AD21C008ADA7F /* SourceKittenFramework.framework in Frameworks */,
-				45420BA91E6AD21C008ADA7F /* SWXMLHash.framework in Frameworks */,
+				459F0C231E6DEE600096E3A8 /* Yams.framework in Frameworks */,
+				459F0C211E6DEE600096E3A8 /* SWXMLHash.framework in Frameworks */,
+				459F0C1F1E6DEE600096E3A8 /* SourceKittenFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4582532E1E6AC7AC00D40376 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		458253391E6AC7AC00D40376 /* Frameworks */ = {
+		459F0C291E6DEF000096E3A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		458253581E6AC8CE00D40376 /* Frameworks */ = {
+		459F0C381E6DEF4C0096E3A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4582537E1E6AC9CD00D40376 /* SourceKittenFramework.framework in Frameworks */,
-				4582537F1E6AC9CD00D40376 /* SWXMLHash.framework in Frameworks */,
-				458253801E6AC9CD00D40376 /* Yams.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		458253611E6AC8CF00D40376 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				458253651E6AC8CF00D40376 /* SwiftVisualizerFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		458253201E6AC7AC00D40376 /* SwiftVisualizer */ = {
+		459F0BEE1E6DEDF00096E3A8 = {
 			isa = PBXGroup;
 			children = (
-				458253211E6AC7AC00D40376 /* AppDelegate.swift */,
-				458253291E6AC7AC00D40376 /* Main.storyboard */,
-				458253231E6AC7AC00D40376 /* ViewController.swift */,
-				458253251E6AC7AC00D40376 /* Document.swift */,
-				459F00BF1E6AD5F400B5F221 /* Supporting Files */,
+				459F0BF91E6DEDF00096E3A8 /* Sources */,
+				459F0C361E6DEF120096E3A8 /* Tests */,
+				459F0BF81E6DEDF00096E3A8 /* Products */,
+				459F0C0B1E6DEE3F0096E3A8 /* Frameworks */,
 			);
-			path = SwiftVisualizer;
 			sourceTree = "<group>";
 		};
-		458253341E6AC7AC00D40376 /* SwiftVisualizerTests */ = {
+		459F0BF81E6DEDF00096E3A8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				458253351E6AC7AC00D40376 /* SwiftVisualizerTests.swift */,
-				459F00C11E6AD60400B5F221 /* Supporting Files */,
+				459F0BF71E6DEDF00096E3A8 /* SwiftVisualizer.app */,
+				459F0C2C1E6DEF000096E3A8 /* SwiftVisualizerTests.xctest */,
+				459F0C3B1E6DEF4C0096E3A8 /* SwiftVisualizerUITests.xctest */,
 			);
-			path = SwiftVisualizerTests;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		4582533F1E6AC7AC00D40376 /* SwiftVisualizerUITests */ = {
+		459F0BF91E6DEDF00096E3A8 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				458253401E6AC7AC00D40376 /* SwiftVisualizerUITests.swift */,
-				459F00C21E6AD60E00B5F221 /* Supporting Files */,
+				459F0BFA1E6DEDF00096E3A8 /* AppDelegate.swift */,
+				459F0BFC1E6DEDF00096E3A8 /* ViewController.swift */,
+				459F0C021E6DEDF00096E3A8 /* Main.storyboard */,
+				459F0BFE1E6DEDF00096E3A8 /* Document.swift */,
+				459F0C251E6DEE890096E3A8 /* Visualizer.swift */,
+				459F0C271E6DEE930096E3A8 /* Supporting Files */,
 			);
-			path = SwiftVisualizerUITests;
+			path = Sources;
 			sourceTree = "<group>";
 		};
-		4582535D1E6AC8CE00D40376 /* SwiftVisualizerFramework */ = {
+		459F0C0B1E6DEE3F0096E3A8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				459F00C51E6AD66000B5F221 /* Visualizer.swift */,
-				459F00C01E6AD5FD00B5F221 /* Supporting Files */,
-			);
-			path = SwiftVisualizerFramework;
-			sourceTree = "<group>";
-		};
-		4582536A1E6AC8CF00D40376 /* SwiftVisualizerFrameworkTests */ = {
-			isa = PBXGroup;
-			children = (
-				4582536B1E6AC8CF00D40376 /* SwiftVisualizerFrameworkTests.swift */,
-				459F00C31E6AD61300B5F221 /* Supporting Files */,
-			);
-			path = SwiftVisualizerFrameworkTests;
-			sourceTree = "<group>";
-		};
-		4582537A1E6AC9CD00D40376 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4582537B1E6AC9CD00D40376 /* SourceKittenFramework.framework */,
-				4582537C1E6AC9CD00D40376 /* SWXMLHash.framework */,
-				4582537D1E6AC9CD00D40376 /* Yams.framework */,
+				459F0C1C1E6DEE600096E3A8 /* SourceKittenFramework.framework */,
+				459F0C1D1E6DEE600096E3A8 /* SWXMLHash.framework */,
+				459F0C1E1E6DEE600096E3A8 /* Yams.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		459F00BF1E6AD5F400B5F221 /* Supporting Files */ = {
+		459F0C271E6DEE930096E3A8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				458253271E6AC7AC00D40376 /* Assets.xcassets */,
-				4582532C1E6AC7AC00D40376 /* Info.plist */,
+				459F0C001E6DEDF00096E3A8 /* Assets.xcassets */,
+				459F0C051E6DEDF00096E3A8 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		459F00C01E6AD5FD00B5F221 /* Supporting Files */ = {
+		459F0C2D1E6DEF000096E3A8 /* SwiftVisualizerTests */ = {
 			isa = PBXGroup;
 			children = (
-				4582535E1E6AC8CE00D40376 /* SwiftVisualizerFramework.h */,
-				4582535F1E6AC8CE00D40376 /* Info.plist */,
+				459F0C2E1E6DEF000096E3A8 /* SwiftVisualizerTests.swift */,
+				459F0C301E6DEF000096E3A8 /* Info.plist */,
 			);
-			name = "Supporting Files";
+			path = SwiftVisualizerTests;
 			sourceTree = "<group>";
 		};
-		459F00C11E6AD60400B5F221 /* Supporting Files */ = {
+		459F0C361E6DEF120096E3A8 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				458253371E6AC7AC00D40376 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		459F00C21E6AD60E00B5F221 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				458253421E6AC7AC00D40376 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		459F00C31E6AD61300B5F221 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				4582536D1E6AC8CF00D40376 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		OBJ_12 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4582531F1E6AC7AC00D40376 /* SwiftVisualizer.app */,
-				458253311E6AC7AC00D40376 /* SwiftVisualizerTests.xctest */,
-				4582533C1E6AC7AC00D40376 /* SwiftVisualizerUITests.xctest */,
-				4582535C1E6AC8CE00D40376 /* SwiftVisualizerFramework.framework */,
-				458253641E6AC8CF00D40376 /* SwiftVisualizerFrameworkTests.xctest */,
-			);
-			name = Products;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		OBJ_5 = {
-			isa = PBXGroup;
-			children = (
-				459F00C41E6AD63F00B5F221 /* Package.swift */,
-				OBJ_7 /* Sources */,
-				OBJ_9 /* Tests */,
-				OBJ_12 /* Products */,
-				4582537A1E6AC9CD00D40376 /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		OBJ_7 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				458253201E6AC7AC00D40376 /* SwiftVisualizer */,
-				4582535D1E6AC8CE00D40376 /* SwiftVisualizerFramework */,
-			);
-			path = Sources;
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_9 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				458253341E6AC7AC00D40376 /* SwiftVisualizerTests */,
-				4582533F1E6AC7AC00D40376 /* SwiftVisualizerUITests */,
-				4582536A1E6AC8CF00D40376 /* SwiftVisualizerFrameworkTests */,
+				459F0C2D1E6DEF000096E3A8 /* SwiftVisualizerTests */,
+				459F0C3C1E6DEF4C0096E3A8 /* SwiftVisualizerUITests */,
 			);
 			path = Tests;
-			sourceTree = SOURCE_ROOT;
+			sourceTree = "<group>";
+		};
+		459F0C3C1E6DEF4C0096E3A8 /* SwiftVisualizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				459F0C3D1E6DEF4C0096E3A8 /* SwiftVisualizerUITests.swift */,
+				459F0C3F1E6DEF4C0096E3A8 /* Info.plist */,
+			);
+			path = SwiftVisualizerUITests;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		458253591E6AC8CE00D40376 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				459F00C71E6ADBCF00B5F221 /* SwiftVisualizerFramework.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		4582531E1E6AC7AC00D40376 /* SwiftVisualizer */ = {
+		459F0BF61E6DEDF00096E3A8 /* SwiftVisualizer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 458253431E6AC7AC00D40376 /* Build configuration list for PBXNativeTarget "SwiftVisualizer" */;
+			buildConfigurationList = 459F0C081E6DEDF00096E3A8 /* Build configuration list for PBXNativeTarget "SwiftVisualizer" */;
 			buildPhases = (
-				4582531B1E6AC7AC00D40376 /* Sources */,
-				4582531C1E6AC7AC00D40376 /* Frameworks */,
-				4582531D1E6AC7AC00D40376 /* Resources */,
-				45420BAD1E6AD21C008ADA7F /* Embed Frameworks */,
+				459F0BF31E6DEDF00096E3A8 /* Sources */,
+				459F0BF41E6DEDF00096E3A8 /* Frameworks */,
+				459F0BF51E6DEDF00096E3A8 /* Resources */,
+				459F0C1B1E6DEE570096E3A8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				45420BA61E6AD21C008ADA7F /* PBXTargetDependency */,
 			);
 			name = SwiftVisualizer;
 			productName = SwiftVisualizer;
-			productReference = 4582531F1E6AC7AC00D40376 /* SwiftVisualizer.app */;
+			productReference = 459F0BF71E6DEDF00096E3A8 /* SwiftVisualizer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		458253301E6AC7AC00D40376 /* SwiftVisualizerTests */ = {
+		459F0C2B1E6DEF000096E3A8 /* SwiftVisualizerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 458253461E6AC7AC00D40376 /* Build configuration list for PBXNativeTarget "SwiftVisualizerTests" */;
+			buildConfigurationList = 459F0C331E6DEF000096E3A8 /* Build configuration list for PBXNativeTarget "SwiftVisualizerTests" */;
 			buildPhases = (
-				4582532D1E6AC7AC00D40376 /* Sources */,
-				4582532E1E6AC7AC00D40376 /* Frameworks */,
-				4582532F1E6AC7AC00D40376 /* Resources */,
+				459F0C281E6DEF000096E3A8 /* Sources */,
+				459F0C291E6DEF000096E3A8 /* Frameworks */,
+				459F0C2A1E6DEF000096E3A8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				458253331E6AC7AC00D40376 /* PBXTargetDependency */,
+				459F0C321E6DEF000096E3A8 /* PBXTargetDependency */,
 			);
 			name = SwiftVisualizerTests;
 			productName = SwiftVisualizerTests;
-			productReference = 458253311E6AC7AC00D40376 /* SwiftVisualizerTests.xctest */;
+			productReference = 459F0C2C1E6DEF000096E3A8 /* SwiftVisualizerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4582533B1E6AC7AC00D40376 /* SwiftVisualizerUITests */ = {
+		459F0C3A1E6DEF4C0096E3A8 /* SwiftVisualizerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 458253491E6AC7AC00D40376 /* Build configuration list for PBXNativeTarget "SwiftVisualizerUITests" */;
+			buildConfigurationList = 459F0C421E6DEF4C0096E3A8 /* Build configuration list for PBXNativeTarget "SwiftVisualizerUITests" */;
 			buildPhases = (
-				458253381E6AC7AC00D40376 /* Sources */,
-				458253391E6AC7AC00D40376 /* Frameworks */,
-				4582533A1E6AC7AC00D40376 /* Resources */,
+				459F0C371E6DEF4C0096E3A8 /* Sources */,
+				459F0C381E6DEF4C0096E3A8 /* Frameworks */,
+				459F0C391E6DEF4C0096E3A8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4582533E1E6AC7AC00D40376 /* PBXTargetDependency */,
+				459F0C411E6DEF4C0096E3A8 /* PBXTargetDependency */,
 			);
 			name = SwiftVisualizerUITests;
 			productName = SwiftVisualizerUITests;
-			productReference = 4582533C1E6AC7AC00D40376 /* SwiftVisualizerUITests.xctest */;
+			productReference = 459F0C3B1E6DEF4C0096E3A8 /* SwiftVisualizerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		4582535B1E6AC8CE00D40376 /* SwiftVisualizerFramework */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 458253731E6AC8CF00D40376 /* Build configuration list for PBXNativeTarget "SwiftVisualizerFramework" */;
-			buildPhases = (
-				458253591E6AC8CE00D40376 /* Headers */,
-				458253571E6AC8CE00D40376 /* Sources */,
-				458253581E6AC8CE00D40376 /* Frameworks */,
-				4582535A1E6AC8CE00D40376 /* Resources */,
-				45420BA11E6AD173008ADA7F /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SwiftVisualizerFramework;
-			productName = SwiftVisualizerFramework;
-			productReference = 4582535C1E6AC8CE00D40376 /* SwiftVisualizerFramework.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		458253631E6AC8CF00D40376 /* SwiftVisualizerFrameworkTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 458253771E6AC8CF00D40376 /* Build configuration list for PBXNativeTarget "SwiftVisualizerFrameworkTests" */;
-			buildPhases = (
-				458253601E6AC8CF00D40376 /* Sources */,
-				458253611E6AC8CF00D40376 /* Frameworks */,
-				458253621E6AC8CF00D40376 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				458253671E6AC8CF00D40376 /* PBXTargetDependency */,
-				458253691E6AC8CF00D40376 /* PBXTargetDependency */,
-			);
-			name = SwiftVisualizerFrameworkTests;
-			productName = SwiftVisualizerFrameworkTests;
-			productReference = 458253641E6AC8CF00D40376 /* SwiftVisualizerFrameworkTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		OBJ_1 /* Project object */ = {
+		459F0BEF1E6DEDF00096E3A8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 9999;
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Søren Mortensen";
 				TargetAttributes = {
-					4582531E1E6AC7AC00D40376 = {
-						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = 5K9KB5PRFV;
+					459F0BF61E6DEDF00096E3A8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7JBHCK475F;
 						ProvisioningStyle = Automatic;
 					};
-					458253301E6AC7AC00D40376 = {
-						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = 5K9KB5PRFV;
+					459F0C2B1E6DEF000096E3A8 = {
+						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 4582531E1E6AC7AC00D40376;
+						TestTargetID = 459F0BF61E6DEDF00096E3A8;
 					};
-					4582533B1E6AC7AC00D40376 = {
-						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = 5K9KB5PRFV;
+					459F0C3A1E6DEF4C0096E3A8 = {
+						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 4582531E1E6AC7AC00D40376;
-					};
-					4582535B1E6AC8CE00D40376 = {
-						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = 5K9KB5PRFV;
-						LastSwiftMigration = 0830;
-						ProvisioningStyle = Automatic;
-					};
-					458253631E6AC8CF00D40376 = {
-						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = 5K9KB5PRFV;
-						ProvisioningStyle = Automatic;
+						TestTargetID = 459F0BF61E6DEDF00096E3A8;
 					};
 				};
 			};
-			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "SwiftVisualizer" */;
+			buildConfigurationList = 459F0BF21E6DEDF00096E3A8 /* Build configuration list for PBXProject "SwiftVisualizer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -457,52 +275,36 @@
 				en,
 				Base,
 			);
-			mainGroup = OBJ_5;
-			productRefGroup = OBJ_12 /* Products */;
+			mainGroup = 459F0BEE1E6DEDF00096E3A8;
+			productRefGroup = 459F0BF81E6DEDF00096E3A8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4582531E1E6AC7AC00D40376 /* SwiftVisualizer */,
-				458253301E6AC7AC00D40376 /* SwiftVisualizerTests */,
-				4582533B1E6AC7AC00D40376 /* SwiftVisualizerUITests */,
-				4582535B1E6AC8CE00D40376 /* SwiftVisualizerFramework */,
-				458253631E6AC8CF00D40376 /* SwiftVisualizerFrameworkTests */,
+				459F0BF61E6DEDF00096E3A8 /* SwiftVisualizer */,
+				459F0C2B1E6DEF000096E3A8 /* SwiftVisualizerTests */,
+				459F0C3A1E6DEF4C0096E3A8 /* SwiftVisualizerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4582531D1E6AC7AC00D40376 /* Resources */ = {
+		459F0BF51E6DEDF00096E3A8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				458253281E6AC7AC00D40376 /* Assets.xcassets in Resources */,
-				4582532B1E6AC7AC00D40376 /* Main.storyboard in Resources */,
+				459F0C011E6DEDF00096E3A8 /* Assets.xcassets in Resources */,
+				459F0C041E6DEDF00096E3A8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4582532F1E6AC7AC00D40376 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4582533A1E6AC7AC00D40376 /* Resources */ = {
+		459F0C2A1E6DEF000096E3A8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4582535A1E6AC8CE00D40376 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		458253621E6AC8CF00D40376 /* Resources */ = {
+		459F0C391E6DEF4C0096E3A8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -511,103 +313,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		45420BA11E6AD173008ADA7F /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/Mac/SourceKittenFramework.framework",
-				"$(SRCROOT)/Carthage/Build/Mac/SWXMLHash.framework",
-				"$(SRCROOT)/Carthage/Build/Mac/Yams.framework",
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		4582531B1E6AC7AC00D40376 /* Sources */ = {
+		459F0BF31E6DEDF00096E3A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				458253241E6AC7AC00D40376 /* ViewController.swift in Sources */,
-				458253221E6AC7AC00D40376 /* AppDelegate.swift in Sources */,
-				458253261E6AC7AC00D40376 /* Document.swift in Sources */,
+				459F0BFD1E6DEDF00096E3A8 /* ViewController.swift in Sources */,
+				459F0C261E6DEE890096E3A8 /* Visualizer.swift in Sources */,
+				459F0BFB1E6DEDF00096E3A8 /* AppDelegate.swift in Sources */,
+				459F0BFF1E6DEDF00096E3A8 /* Document.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4582532D1E6AC7AC00D40376 /* Sources */ = {
+		459F0C281E6DEF000096E3A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				458253361E6AC7AC00D40376 /* SwiftVisualizerTests.swift in Sources */,
+				459F0C2F1E6DEF000096E3A8 /* SwiftVisualizerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		458253381E6AC7AC00D40376 /* Sources */ = {
+		459F0C371E6DEF4C0096E3A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				458253411E6AC7AC00D40376 /* SwiftVisualizerUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		458253571E6AC8CE00D40376 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				459F00C61E6AD66000B5F221 /* Visualizer.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		458253601E6AC8CF00D40376 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4582536C1E6AC8CF00D40376 /* SwiftVisualizerFrameworkTests.swift in Sources */,
+				459F0C3E1E6DEF4C0096E3A8 /* SwiftVisualizerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		45420BA61E6AD21C008ADA7F /* PBXTargetDependency */ = {
+		459F0C321E6DEF000096E3A8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4582535B1E6AC8CE00D40376 /* SwiftVisualizerFramework */;
-			targetProxy = 45420BA51E6AD21C008ADA7F /* PBXContainerItemProxy */;
+			target = 459F0BF61E6DEDF00096E3A8 /* SwiftVisualizer */;
+			targetProxy = 459F0C311E6DEF000096E3A8 /* PBXContainerItemProxy */;
 		};
-		458253331E6AC7AC00D40376 /* PBXTargetDependency */ = {
+		459F0C411E6DEF4C0096E3A8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4582531E1E6AC7AC00D40376 /* SwiftVisualizer */;
-			targetProxy = 458253321E6AC7AC00D40376 /* PBXContainerItemProxy */;
-		};
-		4582533E1E6AC7AC00D40376 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4582531E1E6AC7AC00D40376 /* SwiftVisualizer */;
-			targetProxy = 4582533D1E6AC7AC00D40376 /* PBXContainerItemProxy */;
-		};
-		458253671E6AC8CF00D40376 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4582535B1E6AC8CE00D40376 /* SwiftVisualizerFramework */;
-			targetProxy = 458253661E6AC8CF00D40376 /* PBXContainerItemProxy */;
-		};
-		458253691E6AC8CF00D40376 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4582531E1E6AC7AC00D40376 /* SwiftVisualizer */;
-			targetProxy = 458253681E6AC8CF00D40376 /* PBXContainerItemProxy */;
+			target = 459F0BF61E6DEDF00096E3A8 /* SwiftVisualizer */;
+			targetProxy = 459F0C401E6DEF4C0096E3A8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		458253291E6AC7AC00D40376 /* Main.storyboard */ = {
+		459F0C021E6DEDF00096E3A8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4582532A1E6AC7AC00D40376 /* Base */,
+				459F0C031E6DEDF00096E3A8 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -615,634 +368,228 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		458253441E6AC7AC00D40376 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 5K9KB5PRFV;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/SwiftVisualizer/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sorenmortensen.SwiftVisualizer;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SUPPORTED_PLATFORMS = macosx;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		458253451E6AC7AC00D40376 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = 5K9KB5PRFV;
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/SwiftVisualizer/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sorenmortensen.SwiftVisualizer;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SUPPORTED_PLATFORMS = macosx;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		458253471E6AC7AC00D40376 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 5K9KB5PRFV;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Tests/SwiftVisualizerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sorenmortensen.SwiftVisualizerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftVisualizer.app/Contents/MacOS/SwiftVisualizer";
-			};
-			name = Debug;
-		};
-		458253481E6AC7AC00D40376 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = 5K9KB5PRFV;
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Tests/SwiftVisualizerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sorenmortensen.SwiftVisualizerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftVisualizer.app/Contents/MacOS/SwiftVisualizer";
-			};
-			name = Release;
-		};
-		4582534A1E6AC7AC00D40376 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 5K9KB5PRFV;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Tests/SwiftVisualizerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sorenmortensen.SwiftVisualizerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = SwiftVisualizer;
-			};
-			name = Debug;
-		};
-		4582534B1E6AC7AC00D40376 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = 5K9KB5PRFV;
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Tests/SwiftVisualizerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sorenmortensen.SwiftVisualizerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = SwiftVisualizer;
-			};
-			name = Release;
-		};
-		458253741E6AC8CF00D40376 /* Debug */ = {
+		459F0C061E6DEDF00096E3A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 5K9KB5PRFV;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
-				FRAMEWORK_VERSION = A;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/SwiftVisualizerFramework/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sorenmortensen.SwiftVisualizerFramework;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		458253751E6AC8CF00D40376 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 5K9KB5PRFV;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
-				FRAMEWORK_VERSION = A;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/SwiftVisualizerFramework/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sorenmortensen.SwiftVisualizerFramework;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		458253781E6AC8CF00D40376 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 5K9KB5PRFV;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Tests/SwiftVisualizerFrameworkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sorenmortensen.SwiftVisualizerFrameworkTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		458253791E6AC8CF00D40376 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = 5K9KB5PRFV;
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Tests/SwiftVisualizerFrameworkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sorenmortensen.SwiftVisualizerFrameworkTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		OBJ_3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
-				COMBINE_HIDPI_IMAGES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_SWIFT_FLAGS = "-DXcode";
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				USE_HEADERMAP = NO;
 			};
 			name = Debug;
 		};
-		OBJ_4 /* Release */ = {
+		459F0C071E6DEDF00096E3A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_OPTIMIZATION_LEVEL = s;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				OTHER_SWIFT_FLAGS = "-DXcode";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		459F0C091E6DEDF00096E3A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7JBHCK475F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sorenmortensen.SwiftVisualizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		459F0C0A1E6DEDF00096E3A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7JBHCK475F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sorenmortensen.SwiftVisualizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		459F0C341E6DEF000096E3A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Tests/SwiftVisualizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sorenmortensen.SwiftVisualizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftVisualizer.app/Contents/MacOS/SwiftVisualizer";
+			};
+			name = Debug;
+		};
+		459F0C351E6DEF000096E3A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Tests/SwiftVisualizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sorenmortensen.SwiftVisualizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftVisualizer.app/Contents/MacOS/SwiftVisualizer";
+			};
+			name = Release;
+		};
+		459F0C431E6DEF4C0096E3A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Tests/SwiftVisualizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sorenmortensen.SwiftVisualizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwiftVisualizer;
+			};
+			name = Debug;
+		};
+		459F0C441E6DEF4C0096E3A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Tests/SwiftVisualizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sorenmortensen.SwiftVisualizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwiftVisualizer;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		458253431E6AC7AC00D40376 /* Build configuration list for PBXNativeTarget "SwiftVisualizer" */ = {
+		459F0BF21E6DEDF00096E3A8 /* Build configuration list for PBXProject "SwiftVisualizer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				458253441E6AC7AC00D40376 /* Debug */,
-				458253451E6AC7AC00D40376 /* Release */,
+				459F0C061E6DEDF00096E3A8 /* Debug */,
+				459F0C071E6DEDF00096E3A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
-		458253461E6AC7AC00D40376 /* Build configuration list for PBXNativeTarget "SwiftVisualizerTests" */ = {
+		459F0C081E6DEDF00096E3A8 /* Build configuration list for PBXNativeTarget "SwiftVisualizer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				458253471E6AC7AC00D40376 /* Debug */,
-				458253481E6AC7AC00D40376 /* Release */,
+				459F0C091E6DEDF00096E3A8 /* Debug */,
+				459F0C0A1E6DEDF00096E3A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
-		458253491E6AC7AC00D40376 /* Build configuration list for PBXNativeTarget "SwiftVisualizerUITests" */ = {
+		459F0C331E6DEF000096E3A8 /* Build configuration list for PBXNativeTarget "SwiftVisualizerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4582534A1E6AC7AC00D40376 /* Debug */,
-				4582534B1E6AC7AC00D40376 /* Release */,
+				459F0C341E6DEF000096E3A8 /* Debug */,
+				459F0C351E6DEF000096E3A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
 		};
-		458253731E6AC8CF00D40376 /* Build configuration list for PBXNativeTarget "SwiftVisualizerFramework" */ = {
+		459F0C421E6DEF4C0096E3A8 /* Build configuration list for PBXNativeTarget "SwiftVisualizerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				458253741E6AC8CF00D40376 /* Debug */,
-				458253751E6AC8CF00D40376 /* Release */,
+				459F0C431E6DEF4C0096E3A8 /* Debug */,
+				459F0C441E6DEF4C0096E3A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		458253771E6AC8CF00D40376 /* Build configuration list for PBXNativeTarget "SwiftVisualizerFrameworkTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				458253781E6AC8CF00D40376 /* Debug */,
-				458253791E6AC8CF00D40376 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		OBJ_2 /* Build configuration list for PBXProject "SwiftVisualizer" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_3 /* Debug */,
-				OBJ_4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = OBJ_1 /* Project object */;
+	rootObject = 459F0BEF1E6DEDF00096E3A8 /* Project object */;
 }
